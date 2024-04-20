@@ -19,10 +19,6 @@ repositories {
     maven {
         url = uri("https://oss.sonatype.org/content/groups/public/")
     }
-
-    maven {
-        url = uri("https://repo.maven.apache.org/maven2/")
-    }
 }
 
 dependencies {
@@ -33,7 +29,7 @@ dependencies {
 group = "com.wenkrang"
 version = "1.5.4"
 description = "BoatFly"
-java.sourceCompatibility = JavaVersion.VERSION_1_8
+java.sourceCompatibility = JavaVersion.VERSION_11
 
 publishing {
     publications.create<MavenPublication>("maven") {
