@@ -10,6 +10,7 @@ plugins {
 }
 
 repositories {
+    mavenCentral()
     mavenLocal()
     maven {
         url = uri("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
@@ -17,10 +18,6 @@ repositories {
 
     maven {
         url = uri("https://oss.sonatype.org/content/groups/public/")
-    }
-
-    maven {
-        url = uri("https://maven.aliyun.com/repository/public")
     }
 
     maven {
